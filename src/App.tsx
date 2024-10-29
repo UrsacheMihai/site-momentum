@@ -11,7 +11,7 @@ function App() {
                 <Button variant={"contained"}>Home</Button>
                 <Button variant={"contained"}>Info</Button>
             </Stack>
-            <Typography variant={"h1"} textAlign={"center"}>Momentum</Typography>
+            <Typography variant={"h2"} textAlign={"center"}>Momentum</Typography>
         </Box>
     );
 }
