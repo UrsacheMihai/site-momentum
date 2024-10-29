@@ -1,13 +1,18 @@
 import React from 'react';
-import logo from './logo.png';
+import logo from './images/logo.png';
+import instagram from './images/instagram.png';
 import './App.css';
+import {Box, Button, Paper, Stack, Typography} from "@mui/material";
 
 function App() {
     return (
-        <div className="App">
-            <img src={logo} className="App-logo" alt="logo"/>
-            <h1>Site Momentum</h1>
-        </div>
+        <Box paddingTop={"25px"}>
+            <Stack direction={"row"} spacing={"1rem"} position={"sticky"} top={0}>
+                <Button variant={"contained"}>Home</Button>
+                <Button variant={"contained"}>Info</Button>
+            </Stack>
+            <Typography variant={"h1"} textAlign={"center"}>Momentum</Typography>
+        </Box>
     );
 }
 
